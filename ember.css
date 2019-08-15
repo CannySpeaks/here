@@ -1,0 +1,476 @@
+body {
+	background-image: url("solid4.jpg") ;
+	  font-weight: 400;
+  margin: 0; padding: 0;
+    min-width: 58%;
+}
+.foot {
+    position: relative;
+    bottom: 10px;
+	background-image: url("solid3.jpg");
+	width : 100%;
+	right: 0;
+    bottom: 0;
+	padding: 0;
+  }
+.gallery{
+	position : absolute;
+	top: 570px;
+}
+
+h2{
+	font-family: Oswald, sans-serif;
+	z-index: 100;
+		position: relative;
+	bottom: 130px;
+	color : white;
+	/*background: url("solid3.jpg") -100px -40px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+div.desc{
+    white-space: nowrap; 
+    width: 100px; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+div.desc:hover {
+    overflow: visible;
+}
+
+/* The only rule that matters */
+.video-background {
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-image : url("solid2.gif");
+}
+img{
+  border-radius: 50%;
+}
+.pic{
+  list-style-type: none;
+    margin: 259px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.body1{
+	position: relative;
+	bottom: 130px;
+	color : white;
+	/*background: url("solid3.jpg") -100px -40px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+.body2{
+position:center;	
+}
+.body3{
+	position: relative;
+	top: 1200px;
+	color : white;
+	float : left;
+	/*background: url("solid3.jpg") -100px -40px no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.descrip{
+text-align: center;
+position: relative;
+bottom: 235px;	
+font-family: fantasy;
+color: black;
+padding: 9px:
+background-image: url("solid3.jpg");
+}
+
+/* These just style the content */
+article {
+/*  just a fancy border  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+
+.one{
+  width: 250px;
+  height: 25px;
+  background-image: url("knuckle.png");
+}
+
+
+h1 {
+  position: absolute;
+  top: 46%;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+.top{
+	position: relative;
+}
+
+.row {
+        width: 90%;
+    height: 0;
+    padding-bottom: 66.67%;
+    position: relative;
+}
+.row img {width: 100%;
+    position: absolute;
+}
+
+h1 span {
+  font-family: sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 span a {
+  color: #fff;
+}
+
+.nmenu{
+	background-color: black;
+	 position: absolute;
+  top: 0;
+  right: black:
+  z-index: -100;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-image: url("solid3.jpg");
+}
+
+.titlebar {
+  overflow: hidden;
+  width: 100%;
+  z-index : 100;
+} 
+h5{
+font-family: fantasy;
+font-size: 50px;
+    overflow: hidden; 
+      float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: top;
+  text-decoration: none;
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index : 100;
+}
+.topnav img{
+position: relative;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/********************************************************************************************/
+.big{
+	position : center;
+	top: 0;
+	text-align: center;
+	display: block;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+	height: auto;
+}
+
+/*******************************************************************************************************/
+input, textarea {
+  outline: none;
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1rem;
+  color: #555f77;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ced2db;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #ced2db;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #ced2db;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #ced2db;
+}
+
+p {
+  line-height: 1.3125rem;
+}
+
+.comments {
+  margin: 2.5rem auto 0;
+  max-width: 60.75rem;
+  padding: 0 1.25rem;
+}
+.comment-wrap {
+  margin-bottom: 1.25rem;
+  display: table;
+  width: 100%;
+  min-height: 5.3125rem;
+}
+
+.photo {
+  padding-top: 0.625rem;
+  display: table-cell;
+  width: 3.5rem;
+}
+.photo .avatar {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.comment-block {
+  padding: 1rem;
+  background-color: #fff;
+  display: table-cell;
+  vertical-align: top;
+  border-radius: 0.1875rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+.comment-block textarea {
+  width: 100%;
+  resize: none;
+}
+
+.comment-text {
+  margin-bottom: 1.25rem;
+}
+
+.bottom-comment {
+  color: #acb4c2;
+  font-size: 0.875rem;
+}
+
+.comment-date {
+  float: left;
+}
+
+.comment-actions {
+  float: right;
+}
+.comment-actions li {
+  display: inline;
+  margin: -2px;
+  cursor: pointer;
+}
+.comment-actions li.complain {
+  padding-right: 0.75rem;
+  border-right: 1px solid #e1e5eb;
+}
+.comment-actions li.reply {
+  padding-left: 0.75rem;
+  padding-right: 0.125rem;
+}
+.comment-actions li:hover {
+  color: #0095ff;
+}
+
+/*********************************************************************************/
+
+.column {    
+    float: left;
+    width: 150px;
+    height: 150;
+    padding: 5px;
+}
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+div.galler {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 700px;
+    padding: 30px;
+    
+}
+
+div.galler:hover {
+    border: 1px solid #777;
+    background-image: url("solid3.jpg");
+	font-color: white;
+}
+
+div.galler img {
+    width: 100%;
+    height: auto;
+}
+
+div.des {
+    padding: 15px;
+    text-align: center;
+	color : white;
+}
+
+
+/********/
+.footer {
+	text-align: center;
+}
+.footer p {
+	font-family: "Roboto", sans-serif;
+	font-size: 11px;
+	color: #7f7f7f;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.footer a {
+	color: #7f7f7f;
+}
+.footer a:hover {
+	color: #e84545;
+}
+.footer .footer-share {
+	text-align: center;
+}
+.footer .footer-share li {
+	background: none;
+	border-radius: 50%;
+	color: #ffffff;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	padding: none;
+	margin: 0 5px;
+	display: inline-block;
+	float: none;
+}
+.footer .footer-share li :hover{
+	background-image: none;
+}
+.footer .footer-share a {
+	color: #fff;
+}
+.footer .fa-heart {
+	color: #e84545;
+	font-size: 11px;
+	margin: 0 2px;
+}
+  
+h3{
+    text-align: center;
+	font-size: 36px;
+	font-color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  /*background-color: DodgerBlue;*/
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.footer-bottom{
+	justify-content: center;
+	display: flex;
+	float: left;
+	position: center;
+}
